@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Farmer بوت | اربح من إنشاء حسابات جيميل</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🌾 <span>Gmail Farmer</span></div>
+            <div class="nav-links">
+                <a href="#how-it-works">كيف يعمل؟</a>
+                <a href="#earnings">الأرباح</a>
+                <a href="#referral">الإحالات</a>
+                <a href="#mistakes">أخطاء شائعة</a>
+                <a href="#cta" class="btn-outline">ابدأ الآن</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <h1>بوت <span class="gradient-text">Gmail Farmer</span></h1>
+                <p>أنشئ حسابات جيميل واحصل على مكافآت تصل إلى <strong>0.17$</strong> لكل حساب. نظام بسيط ومربح يعمل منذ سنوات.</p>
+                <div class="hero-buttons">
+                    <a href="https://t.me/GmailFarmerBot?start=7130722086" target="_blank" class="btn-primary">
+                        <i class="fab fa-telegram"></i> ابدأ الربح الآن
+                    </a>
+                    <a href="#how-it-works" class="btn-secondary">اكتشف الطريقة</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/450x300?text=Gmail+Farmer+Bot" alt="Gmail Farmer Bot">
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section id="how-it-works" class="how-it-works">
+            <div class="container">
+                <h2 class="section-title">كيف يعمل البوت؟</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <i class="fab fa-telegram"></i>
+                        <h3>ابدأ البوت</h3>
+                        <p>اضغط على زر "ابدأ" أو أرسل <code>/start</code> للبوت.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <i class="fas fa-envelope"></i>
+                        <h3>استلم بيانات الحساب</h3>
+                        <p>البوت يعطيك معلومات تسجيل الدخول (بريد وكلمة مرور).</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <i class="fas fa-globe"></i>
+                        <h3>أنشئ الحساب</h3>
+                        <p>اذهب إلى Gmail.com وأنشئ الحساب باستخدام البيانات المقدمة.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">4</div>
+                        <i class="fas fa-dollar-sign"></i>
+                        <h3>احصل على المكافأة</h3>
+                        <p>عد إلى البوت وأكد الإكمال، وسيتم إيداع الرصيد فوراً.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Earnings Section -->
+        <section id="earnings" class="earnings">
+            <div class="container">
+                <h2 class="section-title">💰 الأرباح</h2>
+                <div class="earnings-card">
+                    <p>لكل حساب جيميل تقوم بإنشائه، تحصل على مكافأة تتراوح بين:</p>
+                    <div class="price-range">
+                        <span class="price">0.145$</span>
+                        <span class="arrow">→</span>
+                        <span class="price">0.17$</span>
+                    </div>
+                    <p>كلما زاد نشاطك، زاد دخلك. يمكنك إكمال عدة مهام يومياً لتحقيق دخل ثابت.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Referral Program -->
+        <section id="referral" class="referral">
+            <div class="container">
+                <h2 class="section-title">👥 نظام الإحالات</h2>
+                <div class="referral-content">
+                    <p>ادعُ أصدقائك عبر رابط الإحالة الخاص بك، واحصل على عمولة مقابل نشاطهم. أفضل طريقة لزيادة أرباحك هي دعوة الآخرين للانضمام.</p>
+                    <div class="referral-link-box">
+                        <i class="fab fa-telegram"></i>
+                        <span>https://t.me/GmailFarmerBot?start=YOUR_ID</span>
+                        <button class="copy-btn" onclick="copyReferralLink()">نسخ الرابط</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Common Mistakes -->
+        <section id="mistakes" class="mistakes">
+            <div class="container">
+                <h2 class="section-title">⚠️ أخطاء شائعة تجنبها</h2>
+                <div class="mistakes-list">
+                    <div class="mistake">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>استخدام نفس عنوان IP</h3>
+                        <p>قم بتغيير الـ IP أو استخدم شبكات مختلفة لتجنب حظر جوجل.</p>
+                    </div>
+                    <div class="mistake">
+                        <i class="fas fa-layer-group"></i>
+                        <h3>إنشاء عدة حسابات متتالية</h3>
+                        <p>لا تنشئ أكثر من حساب في وقت قصير؛ اترك فترات زمنية بين المهام.</p>
+                    </div>
+                    <div class="mistake">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <h3>عدم تسجيل الخروج من الحساب</h3>
+                        <p>تأكد من تسجيل الخروج من حساب Gmail السابق قبل إنشاء حساب جديد.</p>
+                    </div>
+                </div>
+                <p class="mistakes-note">لمزيد من التفاصيل، راجع قسم "المساعدة" داخل البوت.</p>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section id="cta" class="cta">
+            <div class="container">
+                <h2>جاهز لبدء جني الأرباح؟</h2>
+                <p>انضم إلى آلاف المستخدمين الذين يحققون دخلاً يومياً عبر إنشاء حسابات جيميل.</p>
+                <a href="https://t.me/GmailFarmerBot?start=7130722086" target="_blank" class="btn-primary large">
+                    <i class="fab fa-telegram"></i> ابدأ الآن مجاناً
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 Gmail Farmer Bot - جميع الحقوق محفوظة</p>
+            <div class="social-links">
+                <a href="https://t.me/GmailFarmerBot" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
